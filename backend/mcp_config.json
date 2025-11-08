@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "polymarket-analysis": {
+      "command": "python",
+      "args": ["backend/mcp_servers/polymarket_server/server.py"],
+      "env": {}
+    },
+    "news-analysis": {
+      "command": "python",
+      "args": ["backend/mcp_servers/news_server/server.py"],
+      "env": {}
+    }
+  }
+}
