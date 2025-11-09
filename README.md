@@ -32,7 +32,7 @@ pip install -r mcp_servers/requirements.txt
 
 # Start API
 cd api
-uvicorn main:app --reload --port 8000
+uvicorn main:app --reload --port 8080
 ```
 
 ### Frontend Setup
