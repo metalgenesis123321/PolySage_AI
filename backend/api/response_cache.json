@@ -1,0 +1,2456 @@
+{
+  "what is polymarket": {
+    "type": "chat",
+    "response": "Polymarket is a decentralized prediction market platform where users can trade on the outcomes of future events. It uses blockchain technology to create markets on topics ranging from politics to sports to entertainment. Users buy and sell shares representing different outcomes, with prices reflecting the collective wisdom of the market."
+  },
+  "analyze market 0x1234abcd": {
+    "type": "dashboard",
+    "data": {
+      "question": "Will GPT-5 be released in 2025?",
+      "healthScore": 85,
+      "liquidityScore": 8.5,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 5000
+          },
+          {
+            "time": "04:00",
+            "volume": 3200
+          },
+          {
+            "time": "08:00",
+            "volume": 8900
+          },
+          {
+            "time": "12:00",
+            "volume": 12000
+          },
+          {
+            "time": "16:00",
+            "volume": 15000
+          },
+          {
+            "time": "20:00",
+            "volume": 9500
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 45000
+          },
+          {
+            "time": "Tue",
+            "volume": 52000
+          },
+          {
+            "time": "Wed",
+            "volume": 48000
+          },
+          {
+            "time": "Thu",
+            "volume": 61000
+          },
+          {
+            "time": "Fri",
+            "volume": 125000
+          },
+          {
+            "time": "Sat",
+            "volume": 38000
+          },
+          {
+            "time": "Sun",
+            "volume": 42000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 180000
+          },
+          {
+            "time": "Week 2",
+            "volume": 220000
+          },
+          {
+            "time": "Week 3",
+            "volume": 195000
+          },
+          {
+            "time": "Week 4",
+            "volume": 411000
+          }
+        ]
+      },
+      "betOptions": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "oddsComparison": {
+        "yes": {
+          "polymarket": 65,
+          "news": 58,
+          "expert": 62
+        },
+        "no": {
+          "polymarket": 30,
+          "news": 35,
+          "expert": 33
+        },
+        "maybe": {
+          "polymarket": 5,
+          "news": 7,
+          "expert": 5
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Nov 1",
+          "polymarket": 55,
+          "news": 52
+        },
+        {
+          "date": "Nov 2",
+          "polymarket": 57,
+          "news": 54
+        },
+        {
+          "date": "Nov 3",
+          "polymarket": 60,
+          "news": 56
+        },
+        {
+          "date": "Nov 4",
+          "polymarket": 62,
+          "news": 58
+        },
+        {
+          "date": "Nov 5",
+          "polymarket": 64,
+          "news": 59
+        },
+        {
+          "date": "Nov 6",
+          "polymarket": 65,
+          "news": 58
+        }
+      ],
+      "news": [
+        {
+          "title": "OpenAI CEO hints at GPT-5 development",
+          "url": "#",
+          "source": "TechCrunch",
+          "date": "1 day ago"
+        },
+        {
+          "title": "AI compute requirements surge",
+          "url": "#",
+          "source": "The Verge",
+          "date": "2 days ago"
+        },
+        {
+          "title": "Competition heats up in AI race",
+          "url": "#",
+          "source": "Bloomberg",
+          "date": "3 days ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "Yes",
+          "amount": "$50,000",
+          "time": "2 hours ago",
+          "impact": "+2.3%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "No",
+          "amount": "$35,000",
+          "time": "5 hours ago",
+          "impact": "-1.8%",
+          "icon": "TrendingDown"
+        },
+        {
+          "option": "Yes",
+          "amount": "$42,000",
+          "time": "1 day ago",
+          "impact": "+1.5%",
+          "icon": "TrendingUp"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Nov 1",
+          "sentiment": 0.45,
+          "events": "OpenAI quarterly earnings call"
+        },
+        {
+          "date": "Nov 3",
+          "sentiment": 0.52,
+          "events": "CEO interview on AI development"
+        },
+        {
+          "date": "Nov 5",
+          "sentiment": 0.58,
+          "events": "Leaked internal roadmap"
+        },
+        {
+          "date": "Nov 7",
+          "sentiment": 0.62,
+          "events": "Compute cluster expansion announced"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "Market Confidence:",
+          "content": "The market shows strong confidence (65%) in GPT-5 release, driven by recent OpenAI statements and infrastructure investments. Trading volume has increased 40% this week."
+        },
+        {
+          "title": "Trend Analysis:",
+          "content": "Probability has steadily climbed from 55% to 65% over the past week, correlating with positive news flow. Expert consensus aligns closely with market pricing."
+        },
+        {
+          "title": "Risk Assessment:",
+          "content": "Main risks include potential delays in compute availability and regulatory hurdles. However, market health score of 85/100 indicates robust liquidity and price discovery."
+        },
+        {
+          "title": "Strategic Recommendation:",
+          "content": "Current pricing appears fair relative to available information. Consider monitoring OpenAI's Q4 announcements and compute infrastructure developments for potential edge."
+        }
+      ]
+    }
+  },
+  "analyze us recession 2025 market": {
+    "type": "dashboard",
+    "data": {
+      "question": "Will the US enter a recession in 2025?",
+      "healthScore": 78,
+      "liquidityScore": 9.2,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 12000
+          },
+          {
+            "time": "04:00",
+            "volume": 8500
+          },
+          {
+            "time": "08:00",
+            "volume": 18000
+          },
+          {
+            "time": "12:00",
+            "volume": 24000
+          },
+          {
+            "time": "16:00",
+            "volume": 28000
+          },
+          {
+            "time": "20:00",
+            "volume": 19000
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 95000
+          },
+          {
+            "time": "Tue",
+            "volume": 112000
+          },
+          {
+            "time": "Wed",
+            "volume": 98000
+          },
+          {
+            "time": "Thu",
+            "volume": 124000
+          },
+          {
+            "time": "Fri",
+            "volume": 235000
+          },
+          {
+            "time": "Sat",
+            "volume": 78000
+          },
+          {
+            "time": "Sun",
+            "volume": 82000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 380000
+          },
+          {
+            "time": "Week 2",
+            "volume": 420000
+          },
+          {
+            "time": "Week 3",
+            "volume": 395000
+          },
+          {
+            "time": "Week 4",
+            "volume": 805000
+          }
+        ]
+      },
+      "betOptions": [
+        "yes",
+        "no"
+      ],
+      "oddsComparison": {
+        "yes": {
+          "polymarket": 50,
+          "news": 35,
+          "expert": 38
+        },
+        "no": {
+          "polymarket": 50,
+          "news": 65,
+          "expert": 62
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Apr 1",
+          "polymarket": 25,
+          "news": 30
+        },
+        {
+          "date": "Apr 15",
+          "polymarket": 32,
+          "news": 31
+        },
+        {
+          "date": "May 1",
+          "polymarket": 38,
+          "news": 33
+        },
+        {
+          "date": "Jun 1",
+          "polymarket": 42,
+          "news": 35
+        },
+        {
+          "date": "Jul 1",
+          "polymarket": 48,
+          "news": 36
+        },
+        {
+          "date": "Nov 9",
+          "polymarket": 50,
+          "news": 35
+        }
+      ],
+      "news": [
+        {
+          "title": "Trump tariffs escalate US-China trade war",
+          "url": "#",
+          "source": "Bloomberg",
+          "date": "2 days ago"
+        },
+        {
+          "title": "Fed holds rates steady amid uncertainty",
+          "url": "#",
+          "source": "Reuters",
+          "date": "4 days ago"
+        },
+        {
+          "title": "Treasury yield curve inverts further",
+          "url": "#",
+          "source": "Financial Times",
+          "date": "5 days ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "Yes",
+          "amount": "$85,000",
+          "time": "3 hours ago",
+          "impact": "+3.2%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "No",
+          "amount": "$62,000",
+          "time": "8 hours ago",
+          "impact": "-2.1%",
+          "icon": "TrendingDown"
+        },
+        {
+          "option": "Yes",
+          "amount": "$95,000",
+          "time": "1 day ago",
+          "impact": "+4.5%",
+          "icon": "TrendingUp"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Apr 2",
+          "sentiment": 0.28,
+          "events": "Reciprocal tariffs announced"
+        },
+        {
+          "date": "May 15",
+          "sentiment": 0.35,
+          "events": "Manufacturing data weakens"
+        },
+        {
+          "date": "Jul 10",
+          "sentiment": 0.42,
+          "events": "Labor market softening"
+        },
+        {
+          "date": "Nov 8",
+          "sentiment": 0.5,
+          "events": "Trade tensions intensify"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "Market Divergence:",
+          "content": "Polymarket pricing recession odds at 50%, significantly higher than traditional finance models (Bloomberg: 10%, Treasury-based: 15%). This reflects trader concerns about tariff impacts and trade war escalation."
+        },
+        {
+          "title": "Policy Path Analysis:",
+          "content": "Market implies 10% probability of 8+ Fed rate cuts in 2025, suggesting potential for emergency monetary intervention. This extreme scenario pricing indicates recession fears or market stress expectations."
+        },
+        {
+          "title": "Volume Surge:",
+          "content": "Total market volume reached $2.4M, with liquidity concentrated after April tariff announcements. On-chain transparency shows retail and institutional participation."
+        },
+        {
+          "title": "Risk Factors:",
+          "content": "Key triggers include prolonged trade war, labor market deterioration, and aggressive Fed response. Market remains highly sensitive to economic data releases and policy announcements."
+        }
+      ]
+    }
+  },
+  "will bitcoin hit 150k before 2026": {
+    "type": "dashboard",
+    "data": {
+      "question": "Will Bitcoin reach $150,000 before January 1, 2026?",
+      "healthScore": 82,
+      "liquidityScore": 7.8,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 18000
+          },
+          {
+            "time": "04:00",
+            "volume": 12500
+          },
+          {
+            "time": "08:00",
+            "volume": 22000
+          },
+          {
+            "time": "12:00",
+            "volume": 31000
+          },
+          {
+            "time": "16:00",
+            "volume": 38000
+          },
+          {
+            "time": "20:00",
+            "volume": 25000
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 125000
+          },
+          {
+            "time": "Tue",
+            "volume": 148000
+          },
+          {
+            "time": "Wed",
+            "volume": 132000
+          },
+          {
+            "time": "Thu",
+            "volume": 165000
+          },
+          {
+            "time": "Fri",
+            "volume": 298000
+          },
+          {
+            "time": "Sat",
+            "volume": 102000
+          },
+          {
+            "time": "Sun",
+            "volume": 115000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 520000
+          },
+          {
+            "time": "Week 2",
+            "volume": 580000
+          },
+          {
+            "time": "Week 3",
+            "volume": 545000
+          },
+          {
+            "time": "Week 4",
+            "volume": 1085000
+          }
+        ]
+      },
+      "betOptions": [
+        "yes",
+        "no"
+      ],
+      "oddsComparison": {
+        "yes": {
+          "polymarket": 32,
+          "news": 28,
+          "expert": 35
+        },
+        "no": {
+          "polymarket": 68,
+          "news": 72,
+          "expert": 65
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Jan 1",
+          "polymarket": 42,
+          "news": 38
+        },
+        {
+          "date": "Mar 1",
+          "polymarket": 45,
+          "news": 40
+        },
+        {
+          "date": "Jun 1",
+          "polymarket": 38,
+          "news": 35
+        },
+        {
+          "date": "Sep 1",
+          "polymarket": 35,
+          "news": 32
+        },
+        {
+          "date": "Nov 1",
+          "polymarket": 33,
+          "news": 30
+        },
+        {
+          "date": "Nov 9",
+          "polymarket": 32,
+          "news": 28
+        }
+      ],
+      "news": [
+        {
+          "title": "Bitcoin drops below $104K amid market volatility",
+          "url": "#",
+          "source": "CoinDesk",
+          "date": "1 day ago"
+        },
+        {
+          "title": "Long-term BTC holders begin profit-taking",
+          "url": "#",
+          "source": "Cointelegraph",
+          "date": "2 days ago"
+        },
+        {
+          "title": "Institutional inflows slow in Q4 2025",
+          "url": "#",
+          "source": "The Block",
+          "date": "3 days ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "No",
+          "amount": "$78,000",
+          "time": "4 hours ago",
+          "impact": "-3.8%",
+          "icon": "TrendingDown"
+        },
+        {
+          "option": "Yes",
+          "amount": "$45,000",
+          "time": "12 hours ago",
+          "impact": "+1.9%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "No",
+          "amount": "$92,000",
+          "time": "2 days ago",
+          "impact": "-5.2%",
+          "icon": "TrendingDown"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Jan 15",
+          "sentiment": 0.58,
+          "events": "ETF approval momentum"
+        },
+        {
+          "date": "Apr 20",
+          "sentiment": 0.52,
+          "events": "Halving event passes"
+        },
+        {
+          "date": "Jul 10",
+          "sentiment": 0.45,
+          "events": "Regulatory uncertainty increases"
+        },
+        {
+          "date": "Nov 4",
+          "sentiment": 0.38,
+          "events": "Below $104K, heavy liquidations"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "Market Momentum Shift:",
+          "content": "Bitcoin probability for $150K has declined from 42% in January to 32% currently. Recent price action below $104K and $400M in liquidations signal bearish sentiment shift."
+        },
+        {
+          "title": "Trader Behavior:",
+          "content": "Polymarket data shows 71% odds of BTC falling below $100K in November, with long-term holders (5+ months) transferring coins to new buyers - a typical bull market signal that hasn't materialized into sustained gains."
+        },
+        {
+          "title": "Technical Analysis:",
+          "content": "Volume of $5M in related markets suggests high trader interest. Price correlation with gold (0.7) indicates growing status as inflation hedge, but short-term volatility remains elevated."
+        },
+        {
+          "title": "Timeline Constraints:",
+          "content": "With less than 2 months until 2026, Bitcoin would need ~45% gain from current levels. Historical Q4 rallies possible but market health score of 82/100 suggests cautious optimism rather than euphoria."
+        }
+      ]
+    }
+  },
+  "which movie will gross highest in 2025": {
+    "type": "dashboard",
+    "data": {
+      "question": "Which movie will be the highest grossing in 2025?",
+      "healthScore": 91,
+      "liquidityScore": 9.8,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 28000
+          },
+          {
+            "time": "04:00",
+            "volume": 19000
+          },
+          {
+            "time": "08:00",
+            "volume": 35000
+          },
+          {
+            "time": "12:00",
+            "volume": 52000
+          },
+          {
+            "time": "16:00",
+            "volume": 61000
+          },
+          {
+            "time": "20:00",
+            "volume": 42000
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 185000
+          },
+          {
+            "time": "Tue",
+            "volume": 228000
+          },
+          {
+            "time": "Wed",
+            "volume": 205000
+          },
+          {
+            "time": "Thu",
+            "volume": 248000
+          },
+          {
+            "time": "Fri",
+            "volume": 412000
+          },
+          {
+            "time": "Sat",
+            "volume": 295000
+          },
+          {
+            "time": "Sun",
+            "volume": 267000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 820000
+          },
+          {
+            "time": "Week 2",
+            "volume": 950000
+          },
+          {
+            "time": "Week 3",
+            "volume": 885000
+          },
+          {
+            "time": "Week 4",
+            "volume": 1840000
+          }
+        ]
+      },
+      "betOptions": [
+        "Wicked: For Good",
+        "Zootopia 2",
+        "A Minecraft Movie",
+        "Avatar 3",
+        "Other"
+      ],
+      "oddsComparison": {
+        "Wicked: For Good": {
+          "polymarket": 55,
+          "news": 48,
+          "expert": 52
+        },
+        "Zootopia 2": {
+          "polymarket": 20,
+          "news": 25,
+          "expert": 22
+        },
+        "A Minecraft Movie": {
+          "polymarket": 12,
+          "news": 15,
+          "expert": 14
+        },
+        "Avatar 3": {
+          "polymarket": 11,
+          "news": 10,
+          "expert": 10
+        },
+        "Other": {
+          "polymarket": 2,
+          "news": 2,
+          "expert": 2
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Jan 1",
+          "polymarket": 38,
+          "news": 35
+        },
+        {
+          "date": "Mar 1",
+          "polymarket": 42,
+          "news": 39
+        },
+        {
+          "date": "May 1",
+          "polymarket": 47,
+          "news": 43
+        },
+        {
+          "date": "Jul 1",
+          "polymarket": 51,
+          "news": 46
+        },
+        {
+          "date": "Sep 1",
+          "polymarket": 53,
+          "news": 47
+        },
+        {
+          "date": "Nov 9",
+          "polymarket": 55,
+          "news": 48
+        }
+      ],
+      "news": [
+        {
+          "title": "Wicked sequel tracking strong pre-sales",
+          "url": "#",
+          "source": "Variety",
+          "date": "12 hours ago"
+        },
+        {
+          "title": "Disney's Zootopia 2 marketing campaign begins",
+          "url": "#",
+          "source": "Hollywood Reporter",
+          "date": "1 day ago"
+        },
+        {
+          "title": "Minecraft Movie release date confirmed for spring",
+          "url": "#",
+          "source": "Deadline",
+          "date": "2 days ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "Wicked: For Good",
+          "amount": "$125,000",
+          "time": "6 hours ago",
+          "impact": "+2.8%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "Zootopia 2",
+          "amount": "$85,000",
+          "time": "18 hours ago",
+          "impact": "+1.5%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "A Minecraft Movie",
+          "amount": "$67,000",
+          "time": "2 days ago",
+          "impact": "+0.9%",
+          "icon": "TrendingUp"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Feb 15",
+          "sentiment": 0.42,
+          "events": "First Wicked sequel trailer drops"
+        },
+        {
+          "date": "May 10",
+          "sentiment": 0.48,
+          "events": "Strong box office projections emerge"
+        },
+        {
+          "date": "Aug 5",
+          "sentiment": 0.52,
+          "events": "Test screening reviews very positive"
+        },
+        {
+          "date": "Nov 8",
+          "sentiment": 0.58,
+          "events": "Pre-sale records broken"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "Market Leader:",
+          "content": "Wicked: For Good dominates with 55% probability and $64M in total trading volume. The sequel's momentum has steadily increased from 38% in January, driven by strong marketing and positive early buzz."
+        },
+        {
+          "title": "Competition Analysis:",
+          "content": "Zootopia 2 (20%) and Minecraft Movie (12%) trail significantly. Avatar 3 at 11% reflects uncertainty about December releases. Market shows clear frontrunner with minimal volatility week-over-week."
+        },
+        {
+          "title": "Volume Insights:",
+          "content": "Exceptional liquidity with $9.8/10 score and 91/100 health rating. Large institutional bets ($125K+) signal confidence in Wicked. This is one of the platform's most active entertainment markets."
+        },
+        {
+          "title": "Historical Context:",
+          "content": "Entertainment markets on Polymarket typically see 85-90% accuracy. The platform correctly predicted major box office outcomes in past years, lending credibility to current Wicked dominance."
+        }
+      ]
+    }
+  },
+  "nobel peace prize 2026 predictions": {
+    "type": "dashboard",
+    "data": {
+      "question": "Who will win the Nobel Peace Prize in 2026?",
+      "healthScore": 68,
+      "liquidityScore": 6.2,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 4200
+          },
+          {
+            "time": "04:00",
+            "volume": 2800
+          },
+          {
+            "time": "08:00",
+            "volume": 6500
+          },
+          {
+            "time": "12:00",
+            "volume": 9800
+          },
+          {
+            "time": "16:00",
+            "volume": 12500
+          },
+          {
+            "time": "20:00",
+            "volume": 7200
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 32000
+          },
+          {
+            "time": "Tue",
+            "volume": 38000
+          },
+          {
+            "time": "Wed",
+            "volume": 35000
+          },
+          {
+            "time": "Thu",
+            "volume": 42000
+          },
+          {
+            "time": "Fri",
+            "volume": 68000
+          },
+          {
+            "time": "Sat",
+            "volume": 28000
+          },
+          {
+            "time": "Sun",
+            "volume": 31000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 125000
+          },
+          {
+            "time": "Week 2",
+            "volume": 148000
+          },
+          {
+            "time": "Week 3",
+            "volume": 135000
+          },
+          {
+            "time": "Week 4",
+            "volume": 274000
+          }
+        ]
+      },
+      "betOptions": [
+        "Donald Trump",
+        "Yulia Navalnaya",
+        "UN Refugee Agency",
+        "Climate Activists",
+        "Other"
+      ],
+      "oddsComparison": {
+        "Donald Trump": {
+          "polymarket": 25,
+          "news": 18,
+          "expert": 20
+        },
+        "Yulia Navalnaya": {
+          "polymarket": 22,
+          "news": 28,
+          "expert": 25
+        },
+        "UN Refugee Agency": {
+          "polymarket": 18,
+          "news": 20,
+          "expert": 22
+        },
+        "Climate Activists": {
+          "polymarket": 15,
+          "news": 17,
+          "expert": 16
+        },
+        "Other": {
+          "polymarket": 20,
+          "news": 17,
+          "expert": 17
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Jan 1",
+          "polymarket": 15,
+          "news": 12
+        },
+        {
+          "date": "Mar 1",
+          "polymarket": 18,
+          "news": 14
+        },
+        {
+          "date": "Jun 1",
+          "polymarket": 21,
+          "news": 16
+        },
+        {
+          "date": "Sep 1",
+          "polymarket": 23,
+          "news": 17
+        },
+        {
+          "date": "Oct 15",
+          "polymarket": 25,
+          "news": 18
+        }
+      ],
+      "news": [
+        {
+          "title": "2025 Prize leak investigation ongoing",
+          "url": "#",
+          "source": "Bloomberg",
+          "date": "2 weeks ago"
+        },
+        {
+          "title": "Trump peace initiatives gain attention",
+          "url": "#",
+          "source": "NYT",
+          "date": "3 weeks ago"
+        },
+        {
+          "title": "Nobel Committee tightens security protocols",
+          "url": "#",
+          "source": "Finansavisen",
+          "date": "1 month ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "Donald Trump",
+          "amount": "$38,000",
+          "time": "8 hours ago",
+          "impact": "+3.5%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "Yulia Navalnaya",
+          "amount": "$29,000",
+          "time": "1 day ago",
+          "impact": "+2.1%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "UN Refugee Agency",
+          "amount": "$22,000",
+          "time": "3 days ago",
+          "impact": "+1.8%",
+          "icon": "TrendingUp"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Jan 10",
+          "sentiment": 0.32,
+          "events": "Trump Middle East negotiations"
+        },
+        {
+          "date": "Apr 15",
+          "sentiment": 0.38,
+          "events": "Navalny commemoration events"
+        },
+        {
+          "date": "Jul 20",
+          "sentiment": 0.42,
+          "events": "Climate summit outcomes"
+        },
+        {
+          "date": "Oct 10",
+          "sentiment": 0.48,
+          "events": "2025 Prize leak scandal"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "2025 Leak Impact:",
+          "content": "After the 2025 Nobel Prize leak scandal where Maria Corina Machado's odds surged to 73% before announcement, the committee has implemented enhanced security. Norwegian authorities are investigating potential espionage."
+        },
+        {
+          "title": "Trump Leading Odds:",
+          "content": "Donald Trump currently at 25%, driven by peace negotiations and geopolitical initiatives. His odds have climbed from 15% in January, though traditional Nobel experts rate him lower at 20%."
+        },
+        {
+          "title": "Market Fragmentation:",
+          "content": "No clear favorite with top 4 candidates within 10 points of each other. 'Other' category at 20% reflects uncertainty and breadth of potential nominees. Historical data shows Nobel markets are harder to predict than elections."
+        },
+        {
+          "title": "Security Concerns:",
+          "content": "Lower liquidity ($6.2/10) and health score (68/100) compared to typical markets, possibly reflecting trader caution after 2025 manipulation. Platform may implement additional verification for 2026 announcement window."
+        }
+      ]
+    }
+  },
+  "super bowl 60 winner prediction": {
+    "type": "dashboard",
+    "data": {
+      "question": "Which team will win Super Bowl LX (2026)?",
+      "healthScore": 89,
+      "liquidityScore": 9.5,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 35000
+          },
+          {
+            "time": "04:00",
+            "volume": 22000
+          },
+          {
+            "time": "08:00",
+            "volume": 48000
+          },
+          {
+            "time": "12:00",
+            "volume": 68000
+          },
+          {
+            "time": "16:00",
+            "volume": 82000
+          },
+          {
+            "time": "20:00",
+            "volume": 55000
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 245000
+          },
+          {
+            "time": "Tue",
+            "volume": 298000
+          },
+          {
+            "time": "Wed",
+            "volume": 268000
+          },
+          {
+            "time": "Thu",
+            "volume": 315000
+          },
+          {
+            "time": "Fri",
+            "volume": 528000
+          },
+          {
+            "time": "Sat",
+            "volume": 382000
+          },
+          {
+            "time": "Sun",
+            "volume": 445000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 1150000
+          },
+          {
+            "time": "Week 2",
+            "volume": 1320000
+          },
+          {
+            "time": "Week 3",
+            "volume": 1285000
+          },
+          {
+            "time": "Week 4",
+            "volume": 2481000
+          }
+        ]
+      },
+      "betOptions": [
+        "Kansas City Chiefs",
+        "San Francisco 49ers",
+        "Detroit Lions",
+        "Buffalo Bills",
+        "Other"
+      ],
+      "oddsComparison": {
+        "Kansas City Chiefs": {
+          "polymarket": 28,
+          "news": 25,
+          "expert": 27
+        },
+        "San Francisco 49ers": {
+          "polymarket": 18,
+          "news": 20,
+          "expert": 19
+        },
+        "Detroit Lions": {
+          "polymarket": 15,
+          "news": 16,
+          "expert": 15
+        },
+        "Buffalo Bills": {
+          "polymarket": 12,
+          "news": 14,
+          "expert": 13
+        },
+        "Other": {
+          "polymarket": 27,
+          "news": 25,
+          "expert": 26
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Sep 1",
+          "polymarket": 22,
+          "news": 20
+        },
+        {
+          "date": "Sep 15",
+          "polymarket": 24,
+          "news": 22
+        },
+        {
+          "date": "Oct 1",
+          "polymarket": 26,
+          "news": 24
+        },
+        {
+          "date": "Oct 15",
+          "polymarket": 27,
+          "news": 25
+        },
+        {
+          "date": "Nov 1",
+          "polymarket": 28,
+          "news": 25
+        },
+        {
+          "date": "Nov 9",
+          "polymarket": 28,
+          "news": 25
+        }
+      ],
+      "news": [
+        {
+          "title": "Chiefs maintain perfect record through week 10",
+          "url": "#",
+          "source": "ESPN",
+          "date": "1 day ago"
+        },
+        {
+          "title": "49ers injury concerns mount in NFC race",
+          "url": "#",
+          "source": "NFL.com",
+          "date": "2 days ago"
+        },
+        {
+          "title": "Lions emerge as dark horse contender",
+          "url": "#",
+          "source": "The Athletic",
+          "date": "3 days ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "Kansas City Chiefs",
+          "amount": "$156,000",
+          "time": "5 hours ago",
+          "impact": "+1.8%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "Detroit Lions",
+          "amount": "$92,000",
+          "time": "14 hours ago",
+          "impact": "+2.3%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "San Francisco 49ers",
+          "amount": "$108,000",
+          "time": "1 day ago",
+          "impact": "-1.2%",
+          "icon": "TrendingDown"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Sep 5",
+          "sentiment": 0.48,
+          "events": "Season kickoff, Chiefs dynasty talk"
+        },
+        {
+          "date": "Sep 25",
+          "sentiment": 0.52,
+          "events": "Chiefs 4-0 start"
+        },
+        {
+          "date": "Oct 15",
+          "sentiment": 0.56,
+          "events": "Undefeated through 7 games"
+        },
+        {
+          "date": "Nov 8",
+          "sentiment": 0.62,
+          "events": "10-0 record, historic season"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "Chiefs Dynasty Continues:",
+          "content": "Kansas City Chiefs lead at 28% probability with $156K whale bets showing institutional confidence. Three-peat attempt historically difficult, but current form suggests sustainable dominance."
+        },
+        {
+          "title": "Sports Betting Surge:",
+          "content": "NFL markets driving 45% of Polymarket's sports volume. Partnership with Robinhood and Kalshi competition has expanded reach. This market alone has $6.2M+ in volume, reflecting mainstream adoption."
+        },
+        {
+          "title": "Market Efficiency:",
+          "content": "Health score of 89/100 and liquidity 9.5/10 indicate robust price discovery. Odds closely align with Vegas sportsbooks and expert consensus, suggesting efficient market with minimal arbitrage."
+        },
+        {
+          "title": "Competitive Field:",
+          "content": "'Other' category at 27% reflects parity in NFL - any of 8-10 teams could realistically make Super Bowl run. Lions (15%) and Bills (12%) represent value plays with strong fundamentals."
+        }
+      ]
+    }
+  },
+  "will china invade taiwan in 2025": {
+    "type": "dashboard",
+    "data": {
+      "question": "Will China invade Taiwan in 2025?",
+      "healthScore": 71,
+      "liquidityScore": 8.1,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 8500
+          },
+          {
+            "time": "04:00",
+            "volume": 5200
+          },
+          {
+            "time": "08:00",
+            "volume": 12000
+          },
+          {
+            "time": "12:00",
+            "volume": 18500
+          },
+          {
+            "time": "16:00",
+            "volume": 22000
+          },
+          {
+            "time": "20:00",
+            "volume": 14000
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 62000
+          },
+          {
+            "time": "Tue",
+            "volume": 75000
+          },
+          {
+            "time": "Wed",
+            "volume": 68000
+          },
+          {
+            "time": "Thu",
+            "volume": 82000
+          },
+          {
+            "time": "Fri",
+            "volume": 138000
+          },
+          {
+            "time": "Sat",
+            "volume": 58000
+          },
+          {
+            "time": "Sun",
+            "volume": 63000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 285000
+          },
+          {
+            "time": "Week 2",
+            "volume": 320000
+          },
+          {
+            "time": "Week 3",
+            "volume": 295000
+          },
+          {
+            "time": "Week 4",
+            "volume": 546000
+          }
+        ]
+      },
+      "betOptions": [
+        "yes",
+        "no"
+      ],
+      "oddsComparison": {
+        "yes": {
+          "polymarket": 13,
+          "news": 8,
+          "expert": 10
+        },
+        "no": {
+          "polymarket": 87,
+          "news": 92,
+          "expert": 90
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Jan 1",
+          "polymarket": 8,
+          "news": 6
+        },
+        {
+          "date": "Mar 1",
+          "polymarket": 9,
+          "news": 7
+        },
+        {
+          "date": "Jun 1",
+          "polymarket": 11,
+          "news": 8
+        },
+        {
+          "date": "Aug 1",
+          "polymarket": 12,
+          "news": 8
+        },
+        {
+          "date": "Nov 1",
+          "polymarket": 13,
+          "news": 8
+        },
+        {
+          "date": "Nov 9",
+          "polymarket": 13,
+          "news": 8
+        }
+      ],
+      "news": [
+        {
+          "title": "China increases military drills near Taiwan",
+          "url": "#",
+          "source": "Reuters",
+          "date": "1 day ago"
+        },
+        {
+          "title": "US affirms defense commitment to Taiwan",
+          "url": "#",
+          "source": "WSJ",
+          "date": "3 days ago"
+        },
+        {
+          "title": "Taiwan bolsters air defense systems",
+          "url": "#",
+          "source": "Defense News",
+          "date": "5 days ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "No",
+          "amount": "$72,000",
+          "time": "6 hours ago",
+          "impact": "-2.1%",
+          "icon": "TrendingDown"
+        },
+        {
+          "option": "Yes",
+          "amount": "$48,000",
+          "time": "1 day ago",
+          "impact": "+3.8%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "No",
+          "amount": "$85,000",
+          "time": "2 days ago",
+          "impact": "-1.5%",
+          "icon": "TrendingDown"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Feb 15",
+          "sentiment": 0.12,
+          "events": "Routine military exercises"
+        },
+        {
+          "date": "May 20",
+          "sentiment": 0.16,
+          "events": "Diplomatic tensions escalate"
+        },
+        {
+          "date": "Aug 10",
+          "sentiment": 0.19,
+          "events": "Increased naval presence"
+        },
+        {
+          "date": "Nov 5",
+          "sentiment": 0.22,
+          "events": "Intelligence reports surface"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "Low Probability, High Impact:",
+          "content": "Market assigns only 13% chance to Taiwan invasion in 2025, with $1.1M in trading volume. Polymarket pricing slightly higher than expert consensus (10%) and news sentiment (8%), reflecting trader risk premiums."
+        },
+        {
+          "title": "Geopolitical Intelligence:",
+          "content": "Military intelligence analysts use Polymarket for real-time threat assessment. Platform tracked at 12-13% for months, showing stable (pessimistic) outlook despite ongoing tensions. No sudden probability spikes suggest no imminent threat detected by crowd wisdom."
+        },
+        {
+          "title": "Defense Implications:",
+          "content": "US military reportedly monitors prediction market data for national security insights. Related markets include 'Nuclear weapon detonation 2025' (19%) and 'NATO troops in Ukraine' (12%), showing broader geopolitical risk assessment."
+        },
+        {
+          "title": "Market Dynamics:",
+          "content": "Large 'No' bets ($72K-$85K) dominate recent activity, suggesting sophisticated traders betting against invasion. Economic incentives (trade, tech supply chains) make conflict economically irrational for both sides."
+        }
+      ]
+    }
+  },
+  "how many fed rate cuts in 2025": {
+    "type": "dashboard",
+    "data": {
+      "question": "How many Fed rate cuts will occur in 2025?",
+      "healthScore": 76,
+      "liquidityScore": 7.9,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 9500
+          },
+          {
+            "time": "04:00",
+            "volume": 6200
+          },
+          {
+            "time": "08:00",
+            "volume": 14000
+          },
+          {
+            "time": "12:00",
+            "volume": 21000
+          },
+          {
+            "time": "16:00",
+            "volume": 26000
+          },
+          {
+            "time": "20:00",
+            "volume": 17000
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 72000
+          },
+          {
+            "time": "Tue",
+            "volume": 88000
+          },
+          {
+            "time": "Wed",
+            "volume": 78000
+          },
+          {
+            "time": "Thu",
+            "volume": 95000
+          },
+          {
+            "time": "Fri",
+            "volume": 162000
+          },
+          {
+            "time": "Sat",
+            "volume": 68000
+          },
+          {
+            "time": "Sun",
+            "volume": 74000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 320000
+          },
+          {
+            "time": "Week 2",
+            "volume": 375000
+          },
+          {
+            "time": "Week 3",
+            "volume": 345000
+          },
+          {
+            "time": "Week 4",
+            "volume": 637000
+          }
+        ]
+      },
+      "betOptions": [
+        "0 cuts",
+        "1 cut",
+        "2 cuts",
+        "3 cuts",
+        "4+ cuts"
+      ],
+      "oddsComparison": {
+        "0 cuts": {
+          "polymarket": 15,
+          "news": 12,
+          "expert": 10
+        },
+        "1 cut": {
+          "polymarket": 35,
+          "news": 30,
+          "expert": 33
+        },
+        "2 cuts": {
+          "polymarket": 28,
+          "news": 32,
+          "expert": 35
+        },
+        "3 cuts": {
+          "polymarket": 12,
+          "news": 18,
+          "expert": 15
+        },
+        "4+ cuts": {
+          "polymarket": 10,
+          "news": 8,
+          "expert": 7
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Jan 1",
+          "polymarket": 45,
+          "news": 42
+        },
+        {
+          "date": "Mar 1",
+          "polymarket": 38,
+          "news": 38
+        },
+        {
+          "date": "Jun 1",
+          "polymarket": 35,
+          "news": 32
+        },
+        {
+          "date": "Sep 1",
+          "polymarket": 33,
+          "news": 30
+        },
+        {
+          "date": "Nov 1",
+          "polymarket": 35,
+          "news": 30
+        },
+        {
+          "date": "Nov 9",
+          "polymarket": 35,
+          "news": 30
+        }
+      ],
+      "news": [
+        {
+          "title": "Fed holds rates steady citing inflation concerns",
+          "url": "#",
+          "source": "CNBC",
+          "date": "1 day ago"
+        },
+        {
+          "title": "Powell signals data-dependent approach",
+          "url": "#",
+          "source": "Bloomberg",
+          "date": "3 days ago"
+        },
+        {
+          "title": "CME Fed Funds futures show split expectations",
+          "url": "#",
+          "source": "MarketWatch",
+          "date": "5 days ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "1 cut",
+          "amount": "$62,000",
+          "time": "4 hours ago",
+          "impact": "+2.5%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "2 cuts",
+          "amount": "$55,000",
+          "time": "12 hours ago",
+          "impact": "+1.8%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "4+ cuts",
+          "amount": "$38,000",
+          "time": "1 day ago",
+          "impact": "+3.2%",
+          "icon": "TrendingUp"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Jan 5",
+          "sentiment": 0.58,
+          "events": "Optimism about 3-4 cuts"
+        },
+        {
+          "date": "Apr 10",
+          "sentiment": 0.48,
+          "events": "Sticky inflation data"
+        },
+        {
+          "date": "Jul 15",
+          "sentiment": 0.42,
+          "events": "Fed maintains higher for longer"
+        },
+        {
+          "date": "Nov 7",
+          "sentiment": 0.38,
+          "events": "Recession fears vs inflation"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "Polymarket vs Traditional Markets:",
+          "content": "Polymarket shows 35% for 1 cut vs 33.5% in CME Fed Funds futures. Key divergence: Polymarket assigns 10% to 8+ cuts (emergency scenarios) while CME shows ~0%, reflecting retail fear premium vs institutional positioning."
+        },
+        {
+          "title": "Policy Path Uncertainty:",
+          "content": "Market fragmented across outcomes with no clear consensus. 1-2 cuts account for 63% combined probability. This uncertainty reflects competing economic signals: sticky inflation vs recession risks from tariffs."
+        },
+        {
+          "title": "Emergency Cut Premium:",
+          "content": "Polymarket's 26% probability for Fed emergency rate cut in 2025 drives some extreme outcome pricing. If recession materializes, Fed could cut more aggressively than currently priced in traditional markets."
+        },
+        {
+          "title": "Remaining Meeting Count:",
+          "content": "With 6 Fed meetings remaining in 2025 (2 already passed), 1 cut represents modest easing while 3+ suggests aggressive response to deteriorating conditions. Median resolution time on Fed markets: 3-4 days post-meeting."
+        }
+      ]
+    }
+  },
+  "will ethereum hit 5000 in 2025": {
+    "type": "dashboard",
+    "data": {
+      "question": "Will Ethereum reach $5,000 by December 31, 2025?",
+      "healthScore": 84,
+      "liquidityScore": 8.8,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 16000
+          },
+          {
+            "time": "04:00",
+            "volume": 10500
+          },
+          {
+            "time": "08:00",
+            "volume": 23000
+          },
+          {
+            "time": "12:00",
+            "volume": 34000
+          },
+          {
+            "time": "16:00",
+            "volume": 41000
+          },
+          {
+            "time": "20:00",
+            "volume": 27000
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 115000
+          },
+          {
+            "time": "Tue",
+            "volume": 138000
+          },
+          {
+            "time": "Wed",
+            "volume": 125000
+          },
+          {
+            "time": "Thu",
+            "volume": 152000
+          },
+          {
+            "time": "Fri",
+            "volume": 268000
+          },
+          {
+            "time": "Sat",
+            "volume": 98000
+          },
+          {
+            "time": "Sun",
+            "volume": 110000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 480000
+          },
+          {
+            "time": "Week 2",
+            "volume": 550000
+          },
+          {
+            "time": "Week 3",
+            "volume": 515000
+          },
+          {
+            "time": "Week 4",
+            "volume": 1006000
+          }
+        ]
+      },
+      "betOptions": [
+        "yes",
+        "no"
+      ],
+      "oddsComparison": {
+        "yes": {
+          "polymarket": 91,
+          "news": 85,
+          "expert": 88
+        },
+        "no": {
+          "polymarket": 9,
+          "news": 15,
+          "expert": 12
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Jan 1",
+          "polymarket": 72,
+          "news": 68
+        },
+        {
+          "date": "Mar 1",
+          "polymarket": 78,
+          "news": 74
+        },
+        {
+          "date": "Jun 1",
+          "polymarket": 83,
+          "news": 79
+        },
+        {
+          "date": "Sep 1",
+          "polymarket": 87,
+          "news": 82
+        },
+        {
+          "date": "Oct 15",
+          "polymarket": 89,
+          "news": 84
+        },
+        {
+          "date": "Nov 9",
+          "polymarket": 91,
+          "news": 85
+        }
+      ],
+      "news": [
+        {
+          "title": "Ethereum rally gains momentum with DeFi growth",
+          "url": "#",
+          "source": "CoinDesk",
+          "date": "1 day ago"
+        },
+        {
+          "title": "ETH correlation with gold reaches 0.7",
+          "url": "#",
+          "source": "Cointelegraph",
+          "date": "2 days ago"
+        },
+        {
+          "title": "Institutional ETH staking surges to record highs",
+          "url": "#",
+          "source": "The Block",
+          "date": "3 days ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "Yes",
+          "amount": "$142,000",
+          "time": "2 hours ago",
+          "impact": "+1.5%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "Yes",
+          "amount": "$98,000",
+          "time": "8 hours ago",
+          "impact": "+1.2%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "Yes",
+          "amount": "$115,000",
+          "time": "1 day ago",
+          "impact": "+1.8%",
+          "icon": "TrendingUp"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Jan 10",
+          "sentiment": 0.62,
+          "events": "Q1 optimism begins"
+        },
+        {
+          "date": "Apr 20",
+          "sentiment": 0.68,
+          "events": "DeFi TVL rebounds strongly"
+        },
+        {
+          "date": "Jul 15",
+          "sentiment": 0.74,
+          "events": "Layer 2 adoption accelerates"
+        },
+        {
+          "date": "Oct 25",
+          "sentiment": 0.78,
+          "events": "Institutional accumulation"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "Bullish Consensus:",
+          "content": "Overwhelming 91% probability for ETH hitting $5K in 2025, supported by $4.72M in liquidity. Current Q3 projections show strong institutional confidence with on-chain metrics confirming accumulation phase."
+        },
+        {
+          "title": "Technical Momentum:",
+          "content": "17% price rally in October 2025 signals breakout potential. ETH's correlation with gold (0.7) positions it as inflation hedge. DeFi growth and Layer 2 scaling improvements provide fundamental support."
+        },
+        {
+          "title": "Whale Activity:",
+          "content": "Recent large bets ($142K, $115K, $98K) all on 'Yes' side show institutional conviction. Zero significant 'No' bets in past week suggests minimal contrarian positioning despite high probability pricing."
+        },
+        {
+          "title": "Timeline Analysis:",
+          "content": "With ~7 weeks until year-end, ETH needs ~50% gain from current levels. Historical Q4 crypto rallies and macro tailwinds make target achievable. Market health score 84/100 indicates sustainable momentum vs speculative bubble."
+        }
+      ]
+    }
+  },
+  "hurricane season 2025 predictions": {
+    "type": "dashboard",
+    "data": {
+      "question": "Will a Category 5 hurricane make US landfall in 2025?",
+      "healthScore": 72,
+      "liquidityScore": 5.8,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 3200
+          },
+          {
+            "time": "04:00",
+            "volume": 1800
+          },
+          {
+            "time": "08:00",
+            "volume": 4500
+          },
+          {
+            "time": "12:00",
+            "volume": 6800
+          },
+          {
+            "time": "16:00",
+            "volume": 8200
+          },
+          {
+            "time": "20:00",
+            "volume": 5100
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 21000
+          },
+          {
+            "time": "Tue",
+            "volume": 28000
+          },
+          {
+            "time": "Wed",
+            "volume": 24000
+          },
+          {
+            "time": "Thu",
+            "volume": 32000
+          },
+          {
+            "time": "Fri",
+            "volume": 52000
+          },
+          {
+            "time": "Sat",
+            "volume": 18000
+          },
+          {
+            "time": "Sun",
+            "volume": 20000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 85000
+          },
+          {
+            "time": "Week 2",
+            "volume": 98000
+          },
+          {
+            "time": "Week 3",
+            "volume": 92000
+          },
+          {
+            "time": "Week 4",
+            "volume": 195000
+          }
+        ]
+      },
+      "betOptions": [
+        "yes",
+        "no"
+      ],
+      "oddsComparison": {
+        "yes": {
+          "polymarket": 2,
+          "news": 3,
+          "expert": 4
+        },
+        "no": {
+          "polymarket": 98,
+          "news": 97,
+          "expert": 96
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Jun 1",
+          "polymarket": 5,
+          "news": 6
+        },
+        {
+          "date": "Jul 1",
+          "polymarket": 4,
+          "news": 5
+        },
+        {
+          "date": "Aug 1",
+          "polymarket": 3,
+          "news": 4
+        },
+        {
+          "date": "Sep 1",
+          "polymarket": 2,
+          "news": 3
+        },
+        {
+          "date": "Oct 1",
+          "polymarket": 2,
+          "news": 3
+        },
+        {
+          "date": "Nov 9",
+          "polymarket": 2,
+          "news": 3
+        }
+      ],
+      "news": [
+        {
+          "title": "2025 Atlantic hurricane season below predictions",
+          "url": "#",
+          "source": "NOAA",
+          "date": "2 days ago"
+        },
+        {
+          "title": "Climate patterns shift, reducing Cat 5 risk",
+          "url": "#",
+          "source": "Weather Channel",
+          "date": "1 week ago"
+        },
+        {
+          "title": "Historical Cat 5 landfall data analyzed",
+          "url": "#",
+          "source": "National Hurricane Center",
+          "date": "2 weeks ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "No",
+          "amount": "$18,000",
+          "time": "12 hours ago",
+          "impact": "-1.2%",
+          "icon": "TrendingDown"
+        },
+        {
+          "option": "Yes",
+          "amount": "$8,500",
+          "time": "2 days ago",
+          "impact": "+2.8%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "No",
+          "amount": "$22,000",
+          "time": "5 days ago",
+          "impact": "-0.8%",
+          "icon": "TrendingDown"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Jun 1",
+          "sentiment": 0.08,
+          "events": "Hurricane season begins"
+        },
+        {
+          "date": "Jul 15",
+          "sentiment": 0.06,
+          "events": "Below-average activity observed"
+        },
+        {
+          "date": "Aug 20",
+          "sentiment": 0.05,
+          "events": "Peak season passes quietly"
+        },
+        {
+          "date": "Nov 8",
+          "sentiment": 0.04,
+          "events": "Season nearing end"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "Rare Event Probability:",
+          "content": "Only 2% chance of Cat 5 US landfall in 2025, with $167K total volume. Historical rarity of such events (last occurred 2019) combined with below-average 2025 season activity drives low probability."
+        },
+        {
+          "title": "Weather Market Dynamics:",
+          "content": "Natural disaster markets offer unique prediction opportunities but face liquidity challenges (5.8/10). Resolution based on objective USGS/NOAA data ensures clear outcomes with minimal dispute risk."
+        },
+        {
+          "title": "Season Timeline:",
+          "content": "With hurricane season effectively over (runs June-November), probability has declined from 5% in June to 2% currently. Late-season Cat 5 formation extremely unlikely based on historical patterns."
+        },
+        {
+          "title": "Related Markets:",
+          "content": "Part of broader 'Nothing Ever Happens: Natural Disaster Edition' market series including megaquakes and meteor strikes. Weather prediction markets demonstrate Polymarket's expansion beyond politics into science-based forecasting."
+        }
+      ]
+    }
+  },
+  "when will agi be achieved": {
+    "type": "dashboard",
+    "data": {
+      "question": "Will Artificial General Intelligence (AGI) be achieved by 2027?",
+      "healthScore": 79,
+      "liquidityScore": 7.4,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 11000
+          },
+          {
+            "time": "04:00",
+            "volume": 7200
+          },
+          {
+            "time": "08:00",
+            "volume": 16000
+          },
+          {
+            "time": "12:00",
+            "volume": 24000
+          },
+          {
+            "time": "16:00",
+            "volume": 29000
+          },
+          {
+            "time": "20:00",
+            "volume": 19000
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 82000
+          },
+          {
+            "time": "Tue",
+            "volume": 98000
+          },
+          {
+            "time": "Wed",
+            "volume": 88000
+          },
+          {
+            "time": "Thu",
+            "volume": 108000
+          },
+          {
+            "time": "Fri",
+            "volume": 185000
+          },
+          {
+            "time": "Sat",
+            "volume": 72000
+          },
+          {
+            "time": "Sun",
+            "volume": 78000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 365000
+          },
+          {
+            "time": "Week 2",
+            "volume": 420000
+          },
+          {
+            "time": "Week 3",
+            "volume": 385000
+          },
+          {
+            "time": "Week 4",
+            "volume": 711000
+          }
+        ]
+      },
+      "betOptions": [
+        "yes",
+        "no"
+      ],
+      "oddsComparison": {
+        "yes": {
+          "polymarket": 47,
+          "news": 42,
+          "expert": 45
+        },
+        "no": {
+          "polymarket": 53,
+          "news": 58,
+          "expert": 55
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Jan 1",
+          "polymarket": 38,
+          "news": 35
+        },
+        {
+          "date": "Mar 1",
+          "polymarket": 41,
+          "news": 37
+        },
+        {
+          "date": "Jun 1",
+          "polymarket": 44,
+          "news": 40
+        },
+        {
+          "date": "Sep 1",
+          "polymarket": 46,
+          "news": 42
+        },
+        {
+          "date": "Oct 15",
+          "polymarket": 47,
+          "news": 42
+        },
+        {
+          "date": "Nov 9",
+          "polymarket": 47,
+          "news": 42
+        }
+      ],
+      "news": [
+        {
+          "title": "OpenAI's o3 model shows dramatic reasoning gains",
+          "url": "#",
+          "source": "TechCrunch",
+          "date": "1 day ago"
+        },
+        {
+          "title": "SWE-bench scores surge past 70% accuracy",
+          "url": "#",
+          "source": "MIT Technology Review",
+          "date": "3 days ago"
+        },
+        {
+          "title": "AI compute scaling continues exponentially",
+          "url": "#",
+          "source": "The Information",
+          "date": "5 days ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "Yes",
+          "amount": "$88,000",
+          "time": "4 hours ago",
+          "impact": "+2.8%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "No",
+          "amount": "$65,000",
+          "time": "18 hours ago",
+          "impact": "-1.9%",
+          "icon": "TrendingDown"
+        },
+        {
+          "option": "Yes",
+          "amount": "$102,000",
+          "time": "2 days ago",
+          "impact": "+3.5%",
+          "icon": "TrendingUp"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Jan 5",
+          "sentiment": 0.42,
+          "events": "GPT-4 improvements announced"
+        },
+        {
+          "date": "Apr 10",
+          "sentiment": 0.48,
+          "events": "Coding benchmarks show progress"
+        },
+        {
+          "date": "Jul 20",
+          "sentiment": 0.54,
+          "events": "o3 model leaked capabilities"
+        },
+        {
+          "date": "Nov 5",
+          "sentiment": 0.58,
+          "events": "SWE-bench breakthrough"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "Near-Term AGI Debate:",
+          "content": "Market shows 47% probability for AGI by 2027, essentially a coin flip. Manifold estimates 43% for 2026-2028 timeframe. Key limitation: robotics capabilities lag behind reasoning, but coding advances (o3: 71.7% on SWE-bench) suggest rapid progress."
+        },
+        {
+          "title": "OpenAI Announcement Risk:",
+          "content": "Separate market shows 27% for 'OpenAI announces AGI in 2025' - higher than true AGI probability, reflecting announcement strategy risk. OpenAI-Microsoft deal defines AGI as '$100B profit-generating system,' creating incentive for premature claims."
+        },
+        {
+          "title": "Technical Progress:",
+          "content": "GPT-4o achieves 88.7% on MMLU benchmark. o3 shows order-of-magnitude improvement on coding tasks. Missing: robust robotics (for Metaculus definition) and 90%+ APPS accuracy. Timeline depends heavily on compute scaling vs algorithmic breakthroughs."
+        },
+        {
+          "title": "Market Sophistication:",
+          "content": "High trading volume ($1.88M) and health score (79/100) indicate serious institutional interest in AI timelines. Polymarket becoming intelligence signal for tech companies and investors tracking transformative AI development."
+        }
+      ]
+    }
+  },
+  "how to bet on polymarket": {
+    "type": "chat",
+    "response": "I apologize, but I'm having trouble processing your question. Polymarket is a prediction market platform where users trade on event outcomes. Please try rephrasing your question."
+  },
+  "how to trade on poly market": {
+    "type": "chat",
+    "response": "I apologize, but I'm having trouble processing your question. Polymarket is a prediction market platform where users trade on event outcomes. Please try rephrasing your question."
+  },
+  "how to market on polymarket": {
+    "type": "chat",
+    "response": "I apologize, but I'm having trouble processing your question. Polymarket is a prediction market platform where users trade on event outcomes. Please try rephrasing your question."
+  }
+}

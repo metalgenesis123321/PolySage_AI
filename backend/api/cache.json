@@ -1,0 +1,231 @@
+{
+  "what is polymarket": {
+    "type": "chat",
+    "response": "Polymarket is a decentralized prediction market platform where users can trade on the outcomes of future events. It uses blockchain technology to create markets on topics ranging from politics to sports to entertainment. Users buy and sell shares representing different outcomes, with prices reflecting the collective wisdom of the market."
+  },
+  "analyze market 0x1234abcd": {
+    "type": "dashboard",
+    "data": {
+      "question": "Will GPT-5 be released in 2025?",
+      "healthScore": 85,
+      "liquidityScore": 8.5,
+      "volumeData": {
+        "24h": [
+          {
+            "time": "00:00",
+            "volume": 5000
+          },
+          {
+            "time": "04:00",
+            "volume": 3200
+          },
+          {
+            "time": "08:00",
+            "volume": 8900
+          },
+          {
+            "time": "12:00",
+            "volume": 12000
+          },
+          {
+            "time": "16:00",
+            "volume": 15000
+          },
+          {
+            "time": "20:00",
+            "volume": 9500
+          }
+        ],
+        "7d": [
+          {
+            "time": "Mon",
+            "volume": 45000
+          },
+          {
+            "time": "Tue",
+            "volume": 52000
+          },
+          {
+            "time": "Wed",
+            "volume": 48000
+          },
+          {
+            "time": "Thu",
+            "volume": 61000
+          },
+          {
+            "time": "Fri",
+            "volume": 125000
+          },
+          {
+            "time": "Sat",
+            "volume": 38000
+          },
+          {
+            "time": "Sun",
+            "volume": 42000
+          }
+        ],
+        "1m": [
+          {
+            "time": "Week 1",
+            "volume": 180000
+          },
+          {
+            "time": "Week 2",
+            "volume": 220000
+          },
+          {
+            "time": "Week 3",
+            "volume": 195000
+          },
+          {
+            "time": "Week 4",
+            "volume": 411000
+          }
+        ]
+      },
+      "betOptions": [
+        "yes",
+        "no",
+        "maybe"
+      ],
+      "oddsComparison": {
+        "yes": {
+          "polymarket": 65,
+          "news": 58,
+          "expert": 62
+        },
+        "no": {
+          "polymarket": 30,
+          "news": 35,
+          "expert": 33
+        },
+        "maybe": {
+          "polymarket": 5,
+          "news": 7,
+          "expert": 5
+        }
+      },
+      "shiftTimeline": [
+        {
+          "date": "Nov 1",
+          "polymarket": 55,
+          "news": 52
+        },
+        {
+          "date": "Nov 2",
+          "polymarket": 57,
+          "news": 54
+        },
+        {
+          "date": "Nov 3",
+          "polymarket": 60,
+          "news": 56
+        },
+        {
+          "date": "Nov 4",
+          "polymarket": 62,
+          "news": 58
+        },
+        {
+          "date": "Nov 5",
+          "polymarket": 64,
+          "news": 59
+        },
+        {
+          "date": "Nov 6",
+          "polymarket": 65,
+          "news": 58
+        }
+      ],
+      "news": [
+        {
+          "title": "OpenAI CEO hints at GPT-5 development",
+          "url": "#",
+          "source": "TechCrunch",
+          "date": "1 day ago"
+        },
+        {
+          "title": "AI compute requirements surge",
+          "url": "#",
+          "source": "The Verge",
+          "date": "2 days ago"
+        },
+        {
+          "title": "Competition heats up in AI race",
+          "url": "#",
+          "source": "Bloomberg",
+          "date": "3 days ago"
+        }
+      ],
+      "largeBets": [
+        {
+          "option": "Yes",
+          "amount": "$50,000",
+          "time": "2 hours ago",
+          "impact": "+2.3%",
+          "icon": "TrendingUp"
+        },
+        {
+          "option": "No",
+          "amount": "$35,000",
+          "time": "5 hours ago",
+          "impact": "-1.8%",
+          "icon": "TrendingDown"
+        },
+        {
+          "option": "Yes",
+          "amount": "$42,000",
+          "time": "1 day ago",
+          "impact": "+1.5%",
+          "icon": "TrendingUp"
+        }
+      ],
+      "sentimentTimeline": [
+        {
+          "date": "Nov 1",
+          "sentiment": 0.45,
+          "events": "OpenAI quarterly earnings call"
+        },
+        {
+          "date": "Nov 3",
+          "sentiment": 0.52,
+          "events": "CEO interview on AI development"
+        },
+        {
+          "date": "Nov 5",
+          "sentiment": 0.58,
+          "events": "Leaked internal roadmap"
+        },
+        {
+          "date": "Nov 7",
+          "sentiment": 0.62,
+          "events": "Compute cluster expansion announced"
+        }
+      ],
+      "aiSummary": [
+        {
+          "title": "Market Confidence:",
+          "content": "The market shows strong confidence (65%) in GPT-5 release, driven by recent OpenAI statements and infrastructure investments. Trading volume has increased 40% this week."
+        },
+        {
+          "title": "Trend Analysis:",
+          "content": "Probability has steadily climbed from 55% to 65% over the past week, correlating with positive news flow. Expert consensus aligns closely with market pricing."
+        },
+        {
+          "title": "Risk Assessment:",
+          "content": "Main risks include potential delays in compute availability and regulatory hurdles. However, market health score of 85/100 indicates robust liquidity and price discovery."
+        },
+        {
+          "title": "Strategic Recommendation:",
+          "content": "Current pricing appears fair relative to available information. Consider monitoring OpenAI's Q4 announcements and compute infrastructure developments for potential edge."
+        }
+      ]
+    }
+  },
+  "how does polymarket work": {
+    "type": "chat",
+    "response": "Polymarket is a decentralized prediction market platform where users can buy and sell shares on the outcomes of real-world events, with share prices reflecting the market's collective probability assessment of those outcomes. Users purchase \"Yes\" or \"No\" shares for specific events (like election results or economic indicators), and shares pay out $1 if the prediction is correct or $0 if wrong, creating market-driven probability estimates. The platform operates on the Polygon blockchain using USDC stablecoin, with markets resolving based on objective, verifiable outcomes determined by UMA's oracle system."
+  }
+}

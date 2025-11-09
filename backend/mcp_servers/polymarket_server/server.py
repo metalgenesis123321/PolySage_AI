@@ -4,9 +4,9 @@
 import sys
 import io
 
-if sys.platform == 'win32':
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+# if sys.platform == 'win32':
+#     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+#     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 import asyncio
 import json
@@ -39,8 +39,25 @@ async def fetch_all_markets() -> List[Dict[str, Any]]:
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             if response.status == 200:
-                return await response.json()
+                data = await response.json()
+                
+                # Handle different response structures
+                if isinstance(data, list):
+                    return data
+                elif isinstance(data, dict):
+                    # Check for common patterns
+                    if 'markets' in data:
+                        return data['markets']
+                    elif 'data' in data:
+                        return data['data']
+                    else:
+                        # Return as single-item list
+                        return [data]
+                else:
+                    print(f"Unexpected response type: {type(data)}")
+                    return []
             else:
+                print(f"API error {response.status}: {await response.text()}")
                 return []
 
 async def fetch_market_trades(market_id: str, limit: int = 1000) -> List[Dict[str, Any]]:

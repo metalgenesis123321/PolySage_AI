@@ -126,7 +126,7 @@ const BettingDashboard = ({ data,onBack }) => {
                   <CartesianGrid strokeDasharray="3 3" stroke="#475569" />
                   <XAxis dataKey="time" stroke="#94a3b8" />
                   <YAxis stroke="#94a3b8" />
-                  <Tooltip contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #475569' }} />
+                  <Tooltip cursor={false} contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #475569' }} />
                   <Bar dataKey="volume" fill="#3b82f6" />
                 </BarChart>
               </ResponsiveContainer>
@@ -163,7 +163,7 @@ const BettingDashboard = ({ data,onBack }) => {
                   <CartesianGrid strokeDasharray="3 3" stroke="#475569" />
                   <XAxis dataKey="source" stroke="#94a3b8" />
                   <YAxis stroke="#94a3b8" />
-                  <Tooltip contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #475569' }} />
+                  <Tooltip cursor={false} contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #475569' }} />
                   <Bar dataKey="value" fill="#8b5cf6" />
                 </BarChart>
               </ResponsiveContainer>
@@ -176,7 +176,7 @@ const BettingDashboard = ({ data,onBack }) => {
                   <CartesianGrid strokeDasharray="3 3" stroke="#475569" />
                   <XAxis dataKey="date" stroke="#94a3b8" />
                   <YAxis stroke="#94a3b8" />
-                  <Tooltip contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #475569' }} />
+                  <Tooltip cursor={false} contentStyle={{ backgroundColor: '#1e293b', border: '1px solid #475569' }} />
                   <Legend />
                   <Line type="monotone" dataKey="polymarket" stroke="#3b82f6" strokeWidth={2} />
                   <Line type="monotone" dataKey="news" stroke="#8b5cf6" strokeWidth={2} />

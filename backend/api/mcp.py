@@ -187,7 +187,6 @@ _mcp_manager = MCPServerManager()
 
 async def get_manipulation_report(
     market_id: str,
-    recent_trades: List[Dict[str, Any]],
     orderbook: Dict[str, Any],
     news: List[Dict[str, Any]],
     meta: Dict[str, Any] = None

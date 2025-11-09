@@ -37,7 +37,7 @@ const ChatInput = ({
     } border-t px-6 py-6`}>
       <div className="max-w-4xl mx-auto">
         {/* Market ID Input */}
-        <div className="mb-3">
+        {/* <div className="mb-3">
           <input
             type="text"
             value={marketId}
@@ -49,7 +49,7 @@ const ChatInput = ({
                 : 'bg-blue-50/50 border-blue-200 text-gray-800 placeholder-gray-400'
             } border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400/50 transition-all`}
           />
-        </div>
+        </div> */}
 
         {/* Main Input Area */}
         <div className="relative">
