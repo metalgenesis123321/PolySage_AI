@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+httpx[http2]
+cachetools
+tenacity
+pydantic
+python-dotenv
